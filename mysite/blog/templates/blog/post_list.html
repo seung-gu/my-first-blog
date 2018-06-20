@@ -1,11 +1,18 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+
 <html>
     <head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
         <title>KBR ♡ KSG (1 year anniversary ♥)</title>
-    </head>
+	</head>
+	
     <body>
         <div>
-            <h1><a href="">KBR ♡ KSG (1 year anniversary ♥)</a></h1>
-        </div>
+            <h1><a href="">KBR ♡ KSG (1 year anniversary ♥)</a></h1>	
+		</div>
 
         <div>
             <p>published: 19.06.2018, 01:24(Deggendorf, Germany)</p>
@@ -16,7 +23,10 @@
         <div>
             <p>published: 19.06.2018, 01:24(Deggendorf, Germany)</p>
             <h2><a href="">1 jähriges Jubiläum ♥</a></h2>
-            <p>hoffentlich mein Liebe zu dir nach Südkorea erreichbar sein würde  </p>
-        </div>
+            <p>hoffentlich will mein Liebe zu dir nach Südkorea erreichbar sein</p>
+		</div>
+		
+		<img style="width: 100%; height: auto; background-size: 100% auto !important;" src="{% static 'images/anniversary.jpg' %}"
+			alt="header image" />
     </body>
 </html>
